@@ -4,6 +4,9 @@ from .IState import IState
 
 
 class IInstance():
+    def __init__(self) -> None:
+        raise NotImplementedError
+
     def get_init_state(self) -> IState:
         raise NotImplementedError
 
@@ -11,9 +14,6 @@ class IInstance():
         raise NotImplementedError
 
     def is_terminal_state(self, state: IState) -> bool:
-        raise NotImplementedError
-
-    def display_state(self, state: IState) -> None:
         raise NotImplementedError
 
     def __str__(self) -> str:

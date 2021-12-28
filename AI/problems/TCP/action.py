@@ -7,7 +7,7 @@ class TCPAction(IAction):
         self.edge = edge
 
     def get_cost(self) -> int:
-        raise self.edge.weight
+        return self.edge.weight
 
     def __str__(self) -> str:
-        raise self.edge.__str__()
+        return str(self.edge)

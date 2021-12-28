@@ -155,3 +155,4 @@ yarn-error.log*
 
 bin/
 back/include
+share/

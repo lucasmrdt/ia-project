@@ -1,8 +1,9 @@
-from TCP.interfaces.IState import IState
+from .IInstance import IInstance
+from .IState import IState
 
 
 class IHeuristic():
-    def get_h(self, state: IState) -> int:
+    def get_h(self, state: IState, instance: IInstance) -> int:
         raise NotImplementedError
 
     def __str__(self) -> str:

@@ -3,7 +3,7 @@ from .IAction import IAction
 
 class IState():
     # @dev maybe mutate the state to optimize memory usage
-    def play(self, action: IAction) -> IState:
+    def play(self, action: IAction):
         raise NotImplementedError
 
     def get_cost(self) -> int:
