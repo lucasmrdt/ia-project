@@ -1,1 +1,4 @@
+matplotlib==3.4.1
 networkx==2.6.3
+numpy==1.19.5
+tsplib95==0.7.1
