@@ -11,3 +11,11 @@ class TCPAction(IAction):
 
     def __str__(self) -> str:
         return str(self.edge)
+
+    def __hash__(self) -> int:
+        return hash(self.edge)
+
+    def __eq__(self, other) -> bool:
+        if not isinstance(other, TCPAction):
+            return False
+        return self.edge == other.edge

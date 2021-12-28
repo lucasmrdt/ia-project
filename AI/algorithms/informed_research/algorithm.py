@@ -1,5 +1,6 @@
 from typing import List
-from interfaces import IAlgorithm, IInstance, IAction, IHeuristic, IState
+from shared import DefaultSolution
+from interfaces import IAlgorithm, IInstance, IAction, IHeuristic, IState, ISolution
 
 
 class InformedResearchAlgorithm(IAlgorithm):
@@ -7,12 +8,13 @@ class InformedResearchAlgorithm(IAlgorithm):
         self.instance = instance
         self.heuristic = heuristic
 
-    def get_best_solution(self) -> List[IAction]:
+    def get_best_solution(self) -> ISolution:
         init_state = self.instance.get_init_state()
-        return self._solve(init_state)
+        actions = self._solve(init_state)
+        return DefaultSolution(init_state, actions)
 
     def __str__(self) -> str:
-        raise NotImplementedError
+        return "InformedResearchAlgorithm"
 
     # DFS (pas A*)
     def _solve(self, state: IState) -> List[IAction]:

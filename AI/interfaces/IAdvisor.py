@@ -1,13 +1,14 @@
+from typing import List
 from .IInstance import IInstance
-from .IState import IState
+from .ISolution import ISolution
 
 
-class IHeuristic():
+class IAdvisor:
     def __init__(self, instance: IInstance):
         raise NotImplementedError()
 
-    def get_h(self, state: IState) -> int:
-        raise NotImplementedError
+    def get_better_solutions(self, sol: ISolution) -> ISolution:
+        raise NotImplementedError()
 
     def __str__(self) -> str:
         raise NotImplementedError

@@ -1,14 +1,14 @@
 from typing import List
 
 from .IInstance import IInstance
-from .IAction import IAction
+from .ISolution import ISolution
 
 
 class IAlgorithm:
     def __init__(self, instance: IInstance):
         raise NotImplementedError
 
-    def get_best_solution(self) -> List[IAction]:
+    def get_best_solution(self) -> ISolution:
         raise NotImplementedError
 
     def __str__(self) -> str:

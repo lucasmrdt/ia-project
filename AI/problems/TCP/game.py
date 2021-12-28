@@ -10,7 +10,8 @@ class TCPGame(IGame):
     def run(self) -> None:
         sol = self.algorithm.get_best_solution()
         state = self.instance.get_init_state()
-        print(f"init state: {state}")
-        for action in sol:
-            state = state.play(action)
-            print(f"{action} -> {state}")
+        print("Do you want to see the solution? (y/n)")
+        if input().lower() == "y":
+            print(f"\tInitial state:", state)
+            for action, state in sol.iter_solve():
+                print(f"\t{action} -> {state}")

@@ -9,7 +9,11 @@ class Shell:
             return list[0]
         for i, item in enumerate(list):
             print(f"{i} - {item}")
-        choice = input(f"{title} ")
+        try:
+            choice = input(f"{title} ")
+        except KeyboardInterrupt:
+            print("\nExiting...")
+            exit()
         try:
             return list[int(choice)]
         except (ValueError, IndexError):

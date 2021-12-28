@@ -4,7 +4,10 @@ from .instance import TCPInstance
 
 
 class TCPHeuristic(IHeuristic):
-    def get_h(self, state: TCPState, instance: TCPInstance) -> int:
+    def __init__(self, instance: TCPInstance) -> None:
+        self.instance = instance
+
+    def get_h(self, state: TCPState) -> int:
         raise NotImplementedError
 
     def __str__(self) -> str:
