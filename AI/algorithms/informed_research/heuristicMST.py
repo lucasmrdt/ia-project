@@ -1,8 +1,12 @@
 from interfaces import IAlgorithm, IInstance, IAction, IHeuristic, IState, ISolution 
+from problems.TCP.heuristic import TCPHeuristic, TCPInstance, TCPState
 import math
 
-class HeuristiqueMST(TCPHeuristic):
-   def get_h(self, state: TCPState, instance: TCPInstance) -> int:
+class heuristiqueMST(TCPHeuristic):
+    def __init__(self, instance: TCPInstance) -> None:
+        self.instance = instance
+
+    def get_h(self, state: TCPState, instance: TCPInstance) -> int:
         visited_nodes = state.visited_nodes
         unvisited_nodes = state.unvisited_nodes
         
@@ -21,3 +25,6 @@ class HeuristiqueMST(TCPHeuristic):
             unvisited_nodes.remove(unvis_node)
         
         return h_val 
+
+    def __str__(self) -> str:
+        return "[TCPHeuristic]"

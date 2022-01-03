@@ -1,7 +1,7 @@
 from typing import List
 from shared import DefaultSolution
 from interfaces import IAlgorithm, IInstance, IAction, IHeuristic, IState, ISolution
-from heuristic_mst import HeuristiqueMST
+from .heuristicMST import heuristiqueMST
 import math
 
 class InformedResearchAlgorithm(IAlgorithm):
@@ -17,22 +17,8 @@ class InformedResearchAlgorithm(IAlgorithm):
     def __str__(self) -> str:
         return "InformedResearchAlgorithm"
 
-    # DFS (pas A*)
-    def _solve(self, state: IState) -> List[IAction]:
-        next_action = None
-        if self.instance.is_terminal_state(state):
-            return []
-        for action in self.instance.get_possible_actions(state):
-            if _f(action) < _f(next_action) or next_action is None:
-                next_state = action
-            next_state = state.play(next_action)
-            res = self._solve(next_state)
-            if res is not None:
-                return [action] + res
-        return None
-
     def _f(self, state: IState) -> int:
-        return _g(state) + get_h(state, self.instance)
+        return self._g(state) + get_h(state, self.instance)
         
     def _g(self, state: IState) -> int:
         start_node = self.instance.get_init_state()
@@ -46,4 +32,18 @@ class InformedResearchAlgorithm(IAlgorithm):
                     if self.instance.adj_mat[current_node][node_ajd] + self.heuristic.get_h(node_ajd) < g_val:
                         g_val+=self.instance.adj_mat[current_node][node_ajd] + self.heuristic.get_h(node_ajd)
                         current_node = node_ajd
+
+    # DFS (pas A*)
+    def _solve(self, state: IState) -> List[IAction]:
+        next_action = None
+        if self.instance.is_terminal_state(state):
+            return []
+        for action in self.instance.get_possible_actions(state):
+            if self._f(action) < self._f(next_action) or next_action is None:
+                next_state = action
+            next_state = state.play(next_action)
+            res = self._solve(next_state)
+            if res is not None:
+                return [action] + res
+        return None
 
