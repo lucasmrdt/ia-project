@@ -6,7 +6,7 @@ class heuristiqueMST(TCPHeuristic):
     def __init__(self, instance: TCPInstance) -> None:
         self.instance = instance
 
-    def get_h(self, state: TCPState, instance: TCPInstance) -> int:
+    def get_h(self, state: TCPState) -> int:
         visited_nodes = state.visited_nodes
         unvisited_nodes = state.unvisited_nodes
         
