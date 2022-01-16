@@ -48,7 +48,7 @@ def stats():
     blacklist = set(["dantzig42.txt", "fri26.txt"])
     for inst in os.listdir(base_dir):
         if inst in blacklist:
-            pass
+            continue
         instance = os.path.join(base_dir, inst)
         instance = TCPInstance(instance)
         heuristic = TCPHeuristic(instance)
