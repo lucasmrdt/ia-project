@@ -26,5 +26,11 @@ class TCPState(IState):
     def get_cost(self) -> int:
         return self.cost
 
+    def __hash__(self) -> int:
+        return hash((frozenset(self.visited_nodes), self.head))
+
+    def __eq__(self, __o: object) -> bool:
+        return isinstance(__o, TCPState) and self.head == __o.head and self.visited_nodes == __o.visited_nodes
+
     def __str__(self) -> str:
         return f"[TCPState](head: {self.head}, visited_nodes: {self.visited_nodes}, unvisited_nodes: {self.unvisited_nodes}, cost: {self.cost})"

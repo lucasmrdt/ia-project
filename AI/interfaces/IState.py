@@ -9,6 +9,9 @@ class IState():
     def get_cost(self) -> int:
         raise NotImplementedError
 
+    def __hash__(self) -> int:
+        raise NotImplementedError
+
     def __str__(self) -> str:
         raise NotImplementedError
 

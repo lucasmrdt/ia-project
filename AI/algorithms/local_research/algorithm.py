@@ -7,9 +7,7 @@ from shared import DefaultSolution
 
 
 class LocalResearchAlgorithm(IAlgorithm):
-    NB_RANDOM_TRIES = 100
-
-    def __init__(self, instance: IInstance, advisor: IAdvisor, init_method="random", algo="hill-climbing") -> None:
+    def __init__(self, instance: IInstance, advisor: IAdvisor, init_method="random", algo="hill-climbing", nb_random_tries=1) -> None:
         """Local research algorithm.
 
         Args:
@@ -17,21 +15,24 @@ class LocalResearchAlgorithm(IAlgorithm):
             advisor (IAdvisor): Advisor to get better solutions.
             init_method ("random"|"glouton", optional): Method to generate the initial solution. Defaults to "random".
             algo ("hill-climbing", optional): Method to explore solutions. Defaults to "hill-climbing".
+            nb_random_tries (int): Number of tries for random resolution.
         """
         assert isinstance(instance, IInstance)
         assert isinstance(advisor, IAdvisor)
         assert init_method in ["random", "glouton"]
         assert algo in ["hill-climbing"]
+        assert not nb_random_tries or isinstance(nb_random_tries, int)
         self.instance = instance
         self.advisor = advisor
         self.init_method = init_method
         self.algo = algo
+        self.nb_random_tries = nb_random_tries
 
     def get_best_solution(self) -> ISolution:
         Analysis.reset_all()
         init_state = self.instance.get_init_state()
         sol = None
-        nb_iter = self.init_method == "random" and self.NB_RANDOM_TRIES or 1
+        nb_iter = self.init_method == "random" and self.nb_random_tries or 1
 
         print("Solving...")
         for i in range(nb_iter):
@@ -60,7 +61,7 @@ class LocalResearchAlgorithm(IAlgorithm):
         return sol
 
     def __str__(self) -> str:
-        return f"LocalResearchAlgorithm({self.init_method}, {self.algo})"
+        return f"LocalResearchAlgorithm({self.init_method}, {self.algo}, nb_random_tries={self.nb_random_tries})"
 
     def _create_random_sol(self, state: IState) -> List[IAction]:
         def sort_fct(actions: List[IAction]) -> List[IAction]:

@@ -1,0 +1,1208 @@
+Runing instance: rali.txt with algo: InformedResearchAlgorithm ...
+Solution found: 92
+Execution time: 0.01 ms
+
+Runing instance: rali.txt with algo: LocalResearchAlgorithm(glouton, hill-climbing, nb_random_tries=1) ...
+Solving...
+	[0] initial solution: 125
+	[0] New best solution: 95
+Analysis:
+	Total iterations: 119
+	Nb sub-solutions: 108
+	Nb better solutions: 11
+Solution: 95
+Solution found: 95
+Execution time: 0.00 ms
+
+Runing instance: rali.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=10) ...
+Solving...
+	[0] initial solution: 141
+	[0] New best solution: 95
+	[1] initial solution: 92
+	[1] New best solution: 92
+	[2] initial solution: 141
+	[3] initial solution: 127
+	[4] initial solution: 141
+	[5] initial solution: 111
+	[6] initial solution: 111
+	[7] initial solution: 115
+	[8] initial solution: 127
+	[9] initial solution: 141
+Analysis:
+	Total iterations: 973
+	Nb sub-solutions: 900
+	Nb better solutions: 73
+Solution: 92
+Solution found: 92
+Execution time: 0.01 ms
+
+Runing instance: rali.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=20) ...
+Solving...
+	[0] initial solution: 127
+	[0] New best solution: 95
+	[1] initial solution: 131
+	[2] initial solution: 115
+	[2] New best solution: 92
+	[3] initial solution: 115
+	[4] initial solution: 125
+	[5] initial solution: 131
+	[6] initial solution: 142
+	[7] initial solution: 131
+	[8] initial solution: 115
+	[9] initial solution: 127
+	[10] initial solution: 115
+	[11] initial solution: 111
+	[12] initial solution: 125
+	[13] initial solution: 141
+	[14] initial solution: 115
+	[15] initial solution: 125
+	[16] initial solution: 115
+	[17] initial solution: 131
+	[18] initial solution: 142
+	[19] initial solution: 92
+Analysis:
+	Total iterations: 1828
+	Nb sub-solutions: 1692
+	Nb better solutions: 136
+Solution: 92
+Solution found: 92
+Execution time: 0.01 ms
+
+Runing instance: rali.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=50) ...
+Solving...
+	[0] initial solution: 92
+	[0] New best solution: 92
+	[1] initial solution: 141
+	[2] initial solution: 127
+	[3] initial solution: 92
+	[4] initial solution: 127
+	[5] initial solution: 131
+	[6] initial solution: 127
+	[7] initial solution: 142
+	[8] initial solution: 92
+	[9] initial solution: 141
+	[10] initial solution: 125
+	[11] initial solution: 115
+	[12] initial solution: 142
+	[13] initial solution: 125
+	[14] initial solution: 127
+	[15] initial solution: 125
+	[16] initial solution: 142
+	[17] initial solution: 142
+	[18] initial solution: 111
+	[19] initial solution: 125
+	[20] initial solution: 125
+	[21] initial solution: 141
+	[22] initial solution: 125
+	[23] initial solution: 127
+	[24] initial solution: 125
+	[25] initial solution: 142
+	[26] initial solution: 125
+	[27] initial solution: 125
+	[28] initial solution: 125
+	[29] initial solution: 125
+	[30] initial solution: 125
+	[31] initial solution: 92
+	[32] initial solution: 141
+	[33] initial solution: 92
+	[34] initial solution: 127
+	[35] initial solution: 111
+	[36] initial solution: 115
+	[37] initial solution: 142
+	[38] initial solution: 111
+	[39] initial solution: 131
+	[40] initial solution: 142
+	[41] initial solution: 131
+	[42] initial solution: 125
+	[43] initial solution: 111
+	[44] initial solution: 111
+	[45] initial solution: 111
+	[46] initial solution: 142
+	[47] initial solution: 111
+	[48] initial solution: 125
+	[49] initial solution: 131
+Analysis:
+	Total iterations: 4968
+	Nb sub-solutions: 4572
+	Nb better solutions: 396
+Solution: 92
+Solution found: 92
+Execution time: 0.03 ms
+
+Runing instance: rali.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=100) ...
+Solving...
+	[0] initial solution: 142
+	[0] New best solution: 106
+	[1] initial solution: 125
+	[1] New best solution: 95
+	[2] initial solution: 141
+	[3] initial solution: 111
+	[4] initial solution: 131
+	[5] initial solution: 141
+	[6] initial solution: 125
+	[7] initial solution: 125
+	[8] initial solution: 111
+	[9] initial solution: 125
+	[10] initial solution: 142
+	[11] initial solution: 131
+	[12] initial solution: 125
+	[13] initial solution: 131
+	[14] initial solution: 142
+	[15] initial solution: 141
+	[16] initial solution: 131
+	[17] initial solution: 125
+	[18] initial solution: 92
+	[18] New best solution: 92
+	[19] initial solution: 141
+	[20] initial solution: 115
+	[21] initial solution: 141
+	[22] initial solution: 115
+	[23] initial solution: 127
+	[24] initial solution: 92
+	[25] initial solution: 142
+	[26] initial solution: 127
+	[27] initial solution: 131
+	[28] initial solution: 92
+	[29] initial solution: 142
+	[30] initial solution: 131
+	[31] initial solution: 127
+	[32] initial solution: 125
+	[33] initial solution: 92
+	[34] initial solution: 125
+	[35] initial solution: 111
+	[36] initial solution: 125
+	[37] initial solution: 125
+	[38] initial solution: 92
+	[39] initial solution: 131
+	[40] initial solution: 141
+	[41] initial solution: 125
+	[42] initial solution: 115
+	[43] initial solution: 131
+	[44] initial solution: 125
+	[45] initial solution: 125
+	[46] initial solution: 142
+	[47] initial solution: 92
+	[48] initial solution: 127
+	[49] initial solution: 115
+	[50] initial solution: 111
+	[51] initial solution: 127
+	[52] initial solution: 125
+	[53] initial solution: 125
+	[54] initial solution: 131
+	[55] initial solution: 131
+	[56] initial solution: 111
+	[57] initial solution: 127
+	[58] initial solution: 142
+	[59] initial solution: 125
+	[60] initial solution: 111
+	[61] initial solution: 125
+	[62] initial solution: 141
+	[63] initial solution: 131
+	[64] initial solution: 92
+	[65] initial solution: 115
+	[66] initial solution: 131
+	[67] initial solution: 131
+	[68] initial solution: 92
+	[69] initial solution: 142
+	[70] initial solution: 142
+	[71] initial solution: 92
+	[72] initial solution: 111
+	[73] initial solution: 111
+	[74] initial solution: 92
+	[75] initial solution: 142
+	[76] initial solution: 142
+	[77] initial solution: 92
+	[78] initial solution: 125
+	[79] initial solution: 142
+	[80] initial solution: 115
+	[81] initial solution: 131
+	[82] initial solution: 131
+	[83] initial solution: 127
+	[84] initial solution: 142
+	[85] initial solution: 127
+	[86] initial solution: 127
+	[87] initial solution: 127
+	[88] initial solution: 127
+	[89] initial solution: 141
+	[90] initial solution: 127
+	[91] initial solution: 92
+	[92] initial solution: 111
+	[93] initial solution: 127
+	[94] initial solution: 141
+	[95] initial solution: 141
+	[96] initial solution: 142
+	[97] initial solution: 127
+	[98] initial solution: 141
+	[99] initial solution: 131
+Analysis:
+	Total iterations: 9570
+	Nb sub-solutions: 8820
+	Nb better solutions: 750
+Solution: 92
+Solution found: 92
+Execution time: 0.05 ms
+
+Runing instance: p01.txt with algo: InformedResearchAlgorithm ...
+Solution found: 291
+Execution time: 0.02 ms
+
+Runing instance: p01.txt with algo: LocalResearchAlgorithm(glouton, hill-climbing, nb_random_tries=1) ...
+Solving...
+	[0] initial solution: 291
+	[0] New best solution: 291
+Analysis:
+	Total iterations: 92
+	Nb sub-solutions: 91
+	Nb better solutions: 1
+Solution: 291
+Solution found: 291
+Execution time: 0.00 ms
+
+Runing instance: p01.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=10) ...
+Solving...
+	[0] initial solution: 331
+	[0] New best solution: 307
+	[1] initial solution: 343
+	[1] New best solution: 291
+	[2] initial solution: 378
+	[3] initial solution: 336
+	[4] initial solution: 299
+	[5] initial solution: 358
+	[6] initial solution: 291
+	[7] initial solution: 343
+	[8] initial solution: 453
+	[9] initial solution: 291
+Analysis:
+	Total iterations: 2924
+	Nb sub-solutions: 2821
+	Nb better solutions: 103
+Solution: 291
+Solution found: 291
+Execution time: 0.01 ms
+
+Runing instance: p01.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=20) ...
+Solving...
+	[0] initial solution: 459
+	[0] New best solution: 291
+	[1] initial solution: 378
+	[2] initial solution: 336
+	[3] initial solution: 343
+	[4] initial solution: 390
+	[5] initial solution: 331
+	[6] initial solution: 358
+	[7] initial solution: 378
+	[8] initial solution: 299
+	[9] initial solution: 343
+	[10] initial solution: 358
+	[11] initial solution: 393
+	[12] initial solution: 393
+	[13] initial solution: 453
+	[14] initial solution: 390
+	[15] initial solution: 358
+	[16] initial solution: 393
+	[17] initial solution: 343
+	[18] initial solution: 358
+	[19] initial solution: 378
+Analysis:
+	Total iterations: 7170
+	Nb sub-solutions: 6825
+	Nb better solutions: 345
+Solution: 291
+Solution found: 291
+Execution time: 0.03 ms
+
+Runing instance: p01.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=50) ...
+Solving...
+	[0] initial solution: 336
+	[0] New best solution: 291
+	[1] initial solution: 358
+	[2] initial solution: 459
+	[3] initial solution: 343
+	[4] initial solution: 358
+	[5] initial solution: 291
+	[6] initial solution: 393
+	[7] initial solution: 453
+	[8] initial solution: 331
+	[9] initial solution: 343
+	[10] initial solution: 331
+	[11] initial solution: 336
+	[12] initial solution: 299
+	[13] initial solution: 453
+	[14] initial solution: 389
+	[15] initial solution: 390
+	[16] initial solution: 331
+	[17] initial solution: 343
+	[18] initial solution: 291
+	[19] initial solution: 291
+	[20] initial solution: 299
+	[21] initial solution: 336
+	[22] initial solution: 393
+	[23] initial solution: 358
+	[24] initial solution: 389
+	[25] initial solution: 331
+	[26] initial solution: 378
+	[27] initial solution: 389
+	[28] initial solution: 393
+	[29] initial solution: 453
+	[30] initial solution: 358
+	[31] initial solution: 378
+	[32] initial solution: 389
+	[33] initial solution: 453
+	[34] initial solution: 299
+	[35] initial solution: 299
+	[36] initial solution: 393
+	[37] initial solution: 358
+	[38] initial solution: 331
+	[39] initial solution: 291
+	[40] initial solution: 378
+	[41] initial solution: 389
+	[42] initial solution: 358
+	[43] initial solution: 358
+	[44] initial solution: 459
+	[45] initial solution: 291
+	[46] initial solution: 459
+	[47] initial solution: 389
+	[48] initial solution: 378
+	[49] initial solution: 393
+Analysis:
+	Total iterations: 18200
+	Nb sub-solutions: 17381
+	Nb better solutions: 819
+Solution: 291
+Solution found: 291
+Execution time: 0.07 ms
+
+Runing instance: p01.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=100) ...
+Solving...
+	[0] initial solution: 331
+	[0] New best solution: 307
+	[1] initial solution: 331
+	[2] initial solution: 291
+	[2] New best solution: 291
+	[3] initial solution: 389
+	[4] initial solution: 358
+	[5] initial solution: 291
+	[6] initial solution: 378
+	[7] initial solution: 299
+	[8] initial solution: 299
+	[9] initial solution: 299
+	[10] initial solution: 378
+	[11] initial solution: 343
+	[12] initial solution: 336
+	[13] initial solution: 299
+	[14] initial solution: 378
+	[15] initial solution: 378
+	[16] initial solution: 390
+	[17] initial solution: 291
+	[18] initial solution: 343
+	[19] initial solution: 459
+	[20] initial solution: 393
+	[21] initial solution: 299
+	[22] initial solution: 389
+	[23] initial solution: 299
+	[24] initial solution: 453
+	[25] initial solution: 291
+	[26] initial solution: 299
+	[27] initial solution: 453
+	[28] initial solution: 299
+	[29] initial solution: 453
+	[30] initial solution: 336
+	[31] initial solution: 389
+	[32] initial solution: 459
+	[33] initial solution: 393
+	[34] initial solution: 291
+	[35] initial solution: 336
+	[36] initial solution: 358
+	[37] initial solution: 336
+	[38] initial solution: 291
+	[39] initial solution: 336
+	[40] initial solution: 358
+	[41] initial solution: 358
+	[42] initial solution: 336
+	[43] initial solution: 390
+	[44] initial solution: 358
+	[45] initial solution: 389
+	[46] initial solution: 336
+	[47] initial solution: 393
+	[48] initial solution: 378
+	[49] initial solution: 343
+	[50] initial solution: 389
+	[51] initial solution: 390
+	[52] initial solution: 336
+	[53] initial solution: 299
+	[54] initial solution: 378
+	[55] initial solution: 299
+	[56] initial solution: 389
+	[57] initial solution: 331
+	[58] initial solution: 378
+	[59] initial solution: 390
+	[60] initial solution: 358
+	[61] initial solution: 331
+	[62] initial solution: 331
+	[63] initial solution: 358
+	[64] initial solution: 358
+	[65] initial solution: 358
+	[66] initial solution: 299
+	[67] initial solution: 459
+	[68] initial solution: 299
+	[69] initial solution: 378
+	[70] initial solution: 299
+	[71] initial solution: 459
+	[72] initial solution: 358
+	[73] initial solution: 299
+	[74] initial solution: 336
+	[75] initial solution: 291
+	[76] initial solution: 390
+	[77] initial solution: 459
+	[78] initial solution: 331
+	[79] initial solution: 459
+	[80] initial solution: 343
+	[81] initial solution: 291
+	[82] initial solution: 331
+	[83] initial solution: 299
+	[84] initial solution: 390
+	[85] initial solution: 358
+	[86] initial solution: 358
+	[87] initial solution: 299
+	[88] initial solution: 331
+	[89] initial solution: 390
+	[90] initial solution: 358
+	[91] initial solution: 378
+	[92] initial solution: 299
+	[93] initial solution: 453
+	[94] initial solution: 453
+	[95] initial solution: 389
+	[96] initial solution: 459
+	[97] initial solution: 336
+	[98] initial solution: 343
+	[99] initial solution: 331
+Analysis:
+	Total iterations: 33185
+	Nb sub-solutions: 31759
+	Nb better solutions: 1426
+Solution: 291
+Solution found: 291
+Execution time: 0.12 ms
+
+Runing instance: exemple.txt with algo: InformedResearchAlgorithm ...
+Solution found: 33
+Execution time: 0.00 ms
+
+Runing instance: exemple.txt with algo: LocalResearchAlgorithm(glouton, hill-climbing, nb_random_tries=1) ...
+Solving...
+	[0] initial solution: 41
+	[0] New best solution: 33
+Analysis:
+	Total iterations: 15
+	Nb sub-solutions: 12
+	Nb better solutions: 3
+Solution: 33
+Solution found: 33
+Execution time: 0.00 ms
+
+Runing instance: exemple.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=10) ...
+Solving...
+	[0] initial solution: 43
+	[0] New best solution: 33
+	[1] initial solution: 41
+	[2] initial solution: 33
+	[3] initial solution: 33
+	[4] initial solution: 52
+	[5] initial solution: 43
+	[6] initial solution: 52
+	[7] initial solution: 41
+	[8] initial solution: 43
+	[9] initial solution: 52
+Analysis:
+	Total iterations: 167
+	Nb sub-solutions: 126
+	Nb better solutions: 41
+Solution: 33
+Solution found: 33
+Execution time: 0.00 ms
+
+Runing instance: exemple.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=20) ...
+Solving...
+	[0] initial solution: 41
+	[0] New best solution: 33
+	[1] initial solution: 41
+	[2] initial solution: 41
+	[3] initial solution: 41
+	[4] initial solution: 52
+	[5] initial solution: 41
+	[6] initial solution: 41
+	[7] initial solution: 43
+	[8] initial solution: 33
+	[9] initial solution: 43
+	[10] initial solution: 33
+	[11] initial solution: 52
+	[12] initial solution: 43
+	[13] initial solution: 52
+	[14] initial solution: 43
+	[15] initial solution: 43
+	[16] initial solution: 43
+	[17] initial solution: 33
+	[18] initial solution: 52
+	[19] initial solution: 43
+Analysis:
+	Total iterations: 323
+	Nb sub-solutions: 246
+	Nb better solutions: 77
+Solution: 33
+Solution found: 33
+Execution time: 0.00 ms
+
+Runing instance: exemple.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=50) ...
+Solving...
+	[0] initial solution: 43
+	[0] New best solution: 33
+	[1] initial solution: 43
+	[2] initial solution: 33
+	[3] initial solution: 33
+	[4] initial solution: 33
+	[5] initial solution: 33
+	[6] initial solution: 52
+	[7] initial solution: 33
+	[8] initial solution: 43
+	[9] initial solution: 41
+	[10] initial solution: 33
+	[11] initial solution: 33
+	[12] initial solution: 33
+	[13] initial solution: 52
+	[14] initial solution: 41
+	[15] initial solution: 33
+	[16] initial solution: 41
+	[17] initial solution: 33
+	[18] initial solution: 41
+	[19] initial solution: 33
+	[20] initial solution: 43
+	[21] initial solution: 33
+	[22] initial solution: 43
+	[23] initial solution: 43
+	[24] initial solution: 52
+	[25] initial solution: 43
+	[26] initial solution: 41
+	[27] initial solution: 41
+	[28] initial solution: 43
+	[29] initial solution: 41
+	[30] initial solution: 43
+	[31] initial solution: 33
+	[32] initial solution: 33
+	[33] initial solution: 33
+	[34] initial solution: 33
+	[35] initial solution: 33
+	[36] initial solution: 52
+	[37] initial solution: 33
+	[38] initial solution: 41
+	[39] initial solution: 33
+	[40] initial solution: 41
+	[41] initial solution: 33
+	[42] initial solution: 33
+	[43] initial solution: 41
+	[44] initial solution: 33
+	[45] initial solution: 52
+	[46] initial solution: 33
+	[47] initial solution: 33
+	[48] initial solution: 43
+	[49] initial solution: 33
+Analysis:
+	Total iterations: 610
+	Nb sub-solutions: 480
+	Nb better solutions: 130
+Solution: 33
+Solution found: 33
+Execution time: 0.01 ms
+
+Runing instance: exemple.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=100) ...
+Solving...
+	[0] initial solution: 43
+	[0] New best solution: 33
+	[1] initial solution: 33
+	[2] initial solution: 43
+	[3] initial solution: 33
+	[4] initial solution: 33
+	[5] initial solution: 52
+	[6] initial solution: 41
+	[7] initial solution: 52
+	[8] initial solution: 52
+	[9] initial solution: 52
+	[10] initial solution: 52
+	[11] initial solution: 43
+	[12] initial solution: 41
+	[13] initial solution: 52
+	[14] initial solution: 52
+	[15] initial solution: 41
+	[16] initial solution: 52
+	[17] initial solution: 41
+	[18] initial solution: 52
+	[19] initial solution: 52
+	[20] initial solution: 33
+	[21] initial solution: 33
+	[22] initial solution: 52
+	[23] initial solution: 52
+	[24] initial solution: 52
+	[25] initial solution: 52
+	[26] initial solution: 33
+	[27] initial solution: 33
+	[28] initial solution: 33
+	[29] initial solution: 33
+	[30] initial solution: 41
+	[31] initial solution: 52
+	[32] initial solution: 41
+	[33] initial solution: 43
+	[34] initial solution: 43
+	[35] initial solution: 43
+	[36] initial solution: 41
+	[37] initial solution: 33
+	[38] initial solution: 52
+	[39] initial solution: 43
+	[40] initial solution: 52
+	[41] initial solution: 52
+	[42] initial solution: 33
+	[43] initial solution: 41
+	[44] initial solution: 33
+	[45] initial solution: 43
+	[46] initial solution: 52
+	[47] initial solution: 43
+	[48] initial solution: 43
+	[49] initial solution: 52
+	[50] initial solution: 41
+	[51] initial solution: 52
+	[52] initial solution: 43
+	[53] initial solution: 43
+	[54] initial solution: 52
+	[55] initial solution: 52
+	[56] initial solution: 41
+	[57] initial solution: 43
+	[58] initial solution: 33
+	[59] initial solution: 43
+	[60] initial solution: 33
+	[61] initial solution: 52
+	[62] initial solution: 43
+	[63] initial solution: 41
+	[64] initial solution: 41
+	[65] initial solution: 41
+	[66] initial solution: 41
+	[67] initial solution: 52
+	[68] initial solution: 43
+	[69] initial solution: 41
+	[70] initial solution: 33
+	[71] initial solution: 52
+	[72] initial solution: 41
+	[73] initial solution: 43
+	[74] initial solution: 33
+	[75] initial solution: 41
+	[76] initial solution: 52
+	[77] initial solution: 33
+	[78] initial solution: 41
+	[79] initial solution: 41
+	[80] initial solution: 52
+	[81] initial solution: 33
+	[82] initial solution: 52
+	[83] initial solution: 52
+	[84] initial solution: 43
+	[85] initial solution: 52
+	[86] initial solution: 52
+	[87] initial solution: 33
+	[88] initial solution: 41
+	[89] initial solution: 43
+	[90] initial solution: 52
+	[91] initial solution: 43
+	[92] initial solution: 41
+	[93] initial solution: 41
+	[94] initial solution: 33
+	[95] initial solution: 41
+	[96] initial solution: 41
+	[97] initial solution: 41
+	[98] initial solution: 33
+	[99] initial solution: 41
+Analysis:
+	Total iterations: 1682
+	Nb sub-solutions: 1272
+	Nb better solutions: 410
+Solution: 33
+Solution found: 33
+Execution time: 0.01 ms
+
+Runing instance: five.txt with algo: InformedResearchAlgorithm ...
+Solution found: 19
+Execution time: 0.00 ms
+
+Runing instance: five.txt with algo: LocalResearchAlgorithm(glouton, hill-climbing, nb_random_tries=1) ...
+Solving...
+	[0] initial solution: 21
+	[0] New best solution: 19
+Analysis:
+	Total iterations: 16
+	Nb sub-solutions: 12
+	Nb better solutions: 4
+Solution: 19
+Solution found: 19
+Execution time: 0.00 ms
+
+Runing instance: five.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=10) ...
+Solving...
+	[0] initial solution: 19
+	[0] New best solution: 19
+	[1] initial solution: 21
+	[2] initial solution: 21
+	[3] initial solution: 21
+	[4] initial solution: 21
+	[5] initial solution: 19
+	[6] initial solution: 21
+	[7] initial solution: 19
+	[8] initial solution: 21
+	[9] initial solution: 21
+Analysis:
+	Total iterations: 133
+	Nb sub-solutions: 102
+	Nb better solutions: 31
+Solution: 19
+Solution found: 19
+Execution time: 0.00 ms
+
+Runing instance: five.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=20) ...
+Solving...
+	[0] initial solution: 19
+	[0] New best solution: 19
+	[1] initial solution: 21
+	[2] initial solution: 21
+	[3] initial solution: 21
+	[4] initial solution: 21
+	[5] initial solution: 19
+	[6] initial solution: 21
+	[7] initial solution: 21
+	[8] initial solution: 19
+	[9] initial solution: 21
+	[10] initial solution: 19
+	[11] initial solution: 21
+	[12] initial solution: 21
+	[13] initial solution: 19
+	[14] initial solution: 21
+	[15] initial solution: 21
+	[16] initial solution: 19
+	[17] initial solution: 21
+	[18] initial solution: 21
+	[19] initial solution: 21
+Analysis:
+	Total iterations: 266
+	Nb sub-solutions: 204
+	Nb better solutions: 62
+Solution: 19
+Solution found: 19
+Execution time: 0.00 ms
+
+Runing instance: five.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=50) ...
+Solving...
+	[0] initial solution: 21
+	[0] New best solution: 19
+	[1] initial solution: 21
+	[2] initial solution: 21
+	[3] initial solution: 21
+	[4] initial solution: 21
+	[5] initial solution: 21
+	[6] initial solution: 21
+	[7] initial solution: 19
+	[8] initial solution: 19
+	[9] initial solution: 21
+	[10] initial solution: 21
+	[11] initial solution: 19
+	[12] initial solution: 21
+	[13] initial solution: 21
+	[14] initial solution: 19
+	[15] initial solution: 21
+	[16] initial solution: 19
+	[17] initial solution: 21
+	[18] initial solution: 21
+	[19] initial solution: 19
+	[20] initial solution: 19
+	[21] initial solution: 21
+	[22] initial solution: 21
+	[23] initial solution: 21
+	[24] initial solution: 21
+	[25] initial solution: 21
+	[26] initial solution: 21
+	[27] initial solution: 21
+	[28] initial solution: 21
+	[29] initial solution: 21
+	[30] initial solution: 21
+	[31] initial solution: 21
+	[32] initial solution: 21
+	[33] initial solution: 21
+	[34] initial solution: 21
+	[35] initial solution: 19
+	[36] initial solution: 21
+	[37] initial solution: 21
+	[38] initial solution: 21
+	[39] initial solution: 21
+	[40] initial solution: 19
+	[41] initial solution: 19
+	[42] initial solution: 21
+	[43] initial solution: 21
+	[44] initial solution: 21
+	[45] initial solution: 21
+	[46] initial solution: 21
+	[47] initial solution: 21
+	[48] initial solution: 21
+	[49] initial solution: 21
+Analysis:
+	Total iterations: 710
+	Nb sub-solutions: 540
+	Nb better solutions: 170
+Solution: 19
+Solution found: 19
+Execution time: 0.01 ms
+
+Runing instance: five.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=100) ...
+Solving...
+	[0] initial solution: 21
+	[0] New best solution: 19
+	[1] initial solution: 21
+	[2] initial solution: 21
+	[3] initial solution: 21
+	[4] initial solution: 19
+	[5] initial solution: 21
+	[6] initial solution: 21
+	[7] initial solution: 21
+	[8] initial solution: 21
+	[9] initial solution: 21
+	[10] initial solution: 19
+	[11] initial solution: 19
+	[12] initial solution: 21
+	[13] initial solution: 19
+	[14] initial solution: 21
+	[15] initial solution: 19
+	[16] initial solution: 19
+	[17] initial solution: 19
+	[18] initial solution: 21
+	[19] initial solution: 21
+	[20] initial solution: 21
+	[21] initial solution: 21
+	[22] initial solution: 21
+	[23] initial solution: 21
+	[24] initial solution: 21
+	[25] initial solution: 19
+	[26] initial solution: 19
+	[27] initial solution: 21
+	[28] initial solution: 21
+	[29] initial solution: 21
+	[30] initial solution: 21
+	[31] initial solution: 19
+	[32] initial solution: 21
+	[33] initial solution: 19
+	[34] initial solution: 19
+	[35] initial solution: 19
+	[36] initial solution: 21
+	[37] initial solution: 19
+	[38] initial solution: 21
+	[39] initial solution: 21
+	[40] initial solution: 21
+	[41] initial solution: 19
+	[42] initial solution: 21
+	[43] initial solution: 21
+	[44] initial solution: 19
+	[45] initial solution: 19
+	[46] initial solution: 21
+	[47] initial solution: 21
+	[48] initial solution: 19
+	[49] initial solution: 21
+	[50] initial solution: 21
+	[51] initial solution: 21
+	[52] initial solution: 19
+	[53] initial solution: 21
+	[54] initial solution: 21
+	[55] initial solution: 21
+	[56] initial solution: 21
+	[57] initial solution: 21
+	[58] initial solution: 19
+	[59] initial solution: 21
+	[60] initial solution: 21
+	[61] initial solution: 19
+	[62] initial solution: 21
+	[63] initial solution: 21
+	[64] initial solution: 21
+	[65] initial solution: 21
+	[66] initial solution: 21
+	[67] initial solution: 21
+	[68] initial solution: 21
+	[69] initial solution: 19
+	[70] initial solution: 21
+	[71] initial solution: 19
+	[72] initial solution: 21
+	[73] initial solution: 21
+	[74] initial solution: 21
+	[75] initial solution: 21
+	[76] initial solution: 21
+	[77] initial solution: 19
+	[78] initial solution: 21
+	[79] initial solution: 19
+	[80] initial solution: 21
+	[81] initial solution: 21
+	[82] initial solution: 21
+	[83] initial solution: 21
+	[84] initial solution: 21
+	[85] initial solution: 21
+	[86] initial solution: 21
+	[87] initial solution: 19
+	[88] initial solution: 19
+	[89] initial solution: 19
+	[90] initial solution: 19
+	[91] initial solution: 21
+	[92] initial solution: 19
+	[93] initial solution: 21
+	[94] initial solution: 21
+	[95] initial solution: 19
+	[96] initial solution: 21
+	[97] initial solution: 21
+	[98] initial solution: 19
+	[99] initial solution: 21
+Analysis:
+	Total iterations: 1312
+	Nb sub-solutions: 1008
+	Nb better solutions: 304
+Solution: 19
+Solution found: 19
+Execution time: 0.01 ms
+
+Runing instance: gr17.txt with algo: InformedResearchAlgorithm ...
+Solution found: 2085
+Execution time: 83.28 ms
+
+Runing instance: gr17.txt with algo: LocalResearchAlgorithm(glouton, hill-climbing, nb_random_tries=1) ...
+Solving...
+	[0] initial solution: 2187
+	[0] New best solution: 2085
+Analysis:
+	Total iterations: 492
+	Nb sub-solutions: 480
+	Nb better solutions: 12
+Solution: 2085
+Solution found: 2085
+Execution time: 0.00 ms
+
+Runing instance: gr17.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=10) ...
+Solving...
+	[0] initial solution: 2340
+	[0] New best solution: 2085
+	[1] initial solution: 2576
+	[2] initial solution: 2187
+	[3] initial solution: 3025
+	[4] initial solution: 2576
+	[5] initial solution: 2785
+	[6] initial solution: 2757
+	[7] initial solution: 2340
+	[8] initial solution: 3102
+	[9] initial solution: 2512
+Analysis:
+	Total iterations: 6950
+	Nb sub-solutions: 6600
+	Nb better solutions: 350
+Solution: 2085
+Solution found: 2085
+Execution time: 0.03 ms
+
+Runing instance: gr17.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=20) ...
+Solving...
+	[0] initial solution: 2178
+	[0] New best solution: 2085
+	[1] initial solution: 2178
+	[2] initial solution: 2312
+	[3] initial solution: 2785
+	[4] initial solution: 3025
+	[5] initial solution: 2785
+	[6] initial solution: 3025
+	[7] initial solution: 2576
+	[8] initial solution: 2575
+	[9] initial solution: 2619
+	[10] initial solution: 2576
+	[11] initial solution: 2312
+	[12] initial solution: 2757
+	[13] initial solution: 2340
+	[14] initial solution: 2187
+	[15] initial solution: 3102
+	[16] initial solution: 2589
+	[17] initial solution: 3056
+	[18] initial solution: 2619
+	[19] initial solution: 2589
+Analysis:
+	Total iterations: 13497
+	Nb sub-solutions: 12840
+	Nb better solutions: 657
+Solution: 2085
+Solution found: 2085
+Execution time: 0.06 ms
+
+Runing instance: gr17.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=50) ...
+Solving...
+	[0] initial solution: 2576
+	[0] New best solution: 2095
+	[1] initial solution: 2312
+	[1] New best solution: 2090
+	[2] initial solution: 2757
+	[2] New best solution: 2085
+	[3] initial solution: 2415
+	[4] initial solution: 2757
+	[5] initial solution: 2575
+	[6] initial solution: 2312
+	[7] initial solution: 2757
+	[8] initial solution: 3102
+	[9] initial solution: 3025
+	[10] initial solution: 2512
+	[11] initial solution: 2575
+	[12] initial solution: 2576
+	[13] initial solution: 2415
+	[14] initial solution: 2757
+	[15] initial solution: 2187
+	[16] initial solution: 2178
+	[17] initial solution: 2757
+	[18] initial solution: 2619
+	[19] initial solution: 2619
+	[20] initial solution: 3025
+	[21] initial solution: 2757
+	[22] initial solution: 2415
+	[23] initial solution: 2512
+	[24] initial solution: 2340
+	[25] initial solution: 2178
+	[26] initial solution: 3025
+	[27] initial solution: 2312
+	[28] initial solution: 2576
+	[29] initial solution: 2340
+	[30] initial solution: 2187
+	[31] initial solution: 2187
+	[32] initial solution: 3056
+	[33] initial solution: 3025
+	[34] initial solution: 3025
+	[35] initial solution: 2757
+	[36] initial solution: 2576
+	[37] initial solution: 2575
+	[38] initial solution: 2589
+	[39] initial solution: 2340
+	[40] initial solution: 2512
+	[41] initial solution: 3102
+	[42] initial solution: 3025
+	[43] initial solution: 2415
+	[44] initial solution: 2178
+	[45] initial solution: 2340
+	[46] initial solution: 2512
+	[47] initial solution: 2619
+	[48] initial solution: 2575
+	[49] initial solution: 2757
+Analysis:
+	Total iterations: 33305
+	Nb sub-solutions: 31680
+	Nb better solutions: 1625
+Solution: 2085
+Solution found: 2085
+Execution time: 0.14 ms
+
+Runing instance: gr17.txt with algo: LocalResearchAlgorithm(random, hill-climbing, nb_random_tries=100) ...
+Solving...
+	[0] initial solution: 3025
+	[0] New best solution: 2085
+	[1] initial solution: 3056
+	[2] initial solution: 2312
+	[3] initial solution: 2178
+	[4] initial solution: 2178
+	[5] initial solution: 2512
+	[6] initial solution: 2415
+	[7] initial solution: 2178
+	[8] initial solution: 3056
+	[9] initial solution: 2187
+	[10] initial solution: 2575
+	[11] initial solution: 2312
+	[12] initial solution: 2178
+	[13] initial solution: 3102
+	[14] initial solution: 3025
+	[15] initial solution: 2619
+	[16] initial solution: 3056
+	[17] initial solution: 2619
+	[18] initial solution: 2312
+	[19] initial solution: 2589
+	[20] initial solution: 2575
+	[21] initial solution: 3025
+	[22] initial solution: 2178
+	[23] initial solution: 3102
+	[24] initial solution: 2575
+	[25] initial solution: 2619
+	[26] initial solution: 2575
+	[27] initial solution: 3056
+	[28] initial solution: 3025
+	[29] initial solution: 2589
+	[30] initial solution: 3056
+	[31] initial solution: 2512
+	[32] initial solution: 3025
+	[33] initial solution: 3102
+	[34] initial solution: 2340
+	[35] initial solution: 2312
+	[36] initial solution: 3025
+	[37] initial solution: 2757
+	[38] initial solution: 2187
+	[39] initial solution: 2589
+	[40] initial solution: 2576
+	[41] initial solution: 3056
+	[42] initial solution: 2187
+	[43] initial solution: 3056
+	[44] initial solution: 2575
+	[45] initial solution: 2512
+	[46] initial solution: 2757
+	[47] initial solution: 3102
+	[48] initial solution: 2575
+	[49] initial solution: 2312
+	[50] initial solution: 2178
+	[51] initial solution: 2340
+	[52] initial solution: 2619
+	[53] initial solution: 3056
+	[54] initial solution: 2415
+	[55] initial solution: 2785
+	[56] initial solution: 2619
+	[57] initial solution: 3025
+	[58] initial solution: 2576
+	[59] initial solution: 2340
+	[60] initial solution: 2785
+	[61] initial solution: 3102
+	[62] initial solution: 3025
+	[63] initial solution: 2619
+	[64] initial solution: 2785
+	[65] initial solution: 2512
+	[66] initial solution: 2575
+	[67] initial solution: 2575
+	[68] initial solution: 2178
+	[69] initial solution: 3102
+	[70] initial solution: 2512
+	[71] initial solution: 2340
+	[72] initial solution: 2785
+	[73] initial solution: 2415
+	[74] initial solution: 2340
+	[75] initial solution: 3102
+	[76] initial solution: 3102
+	[77] initial solution: 3025
+	[78] initial solution: 2187
+	[79] initial solution: 3056
+	[80] initial solution: 3102
+	[81] initial solution: 2576
+	[82] initial solution: 2178
+	[83] initial solution: 3102
+	[84] initial solution: 3056
+	[85] initial solution: 2312
+	[86] initial solution: 2576
+	[87] initial solution: 3025
+	[88] initial solution: 2512
+	[89] initial solution: 2415
+	[90] initial solution: 2619
+	[91] initial solution: 2785
+	[92] initial solution: 2757
+	[93] initial solution: 2340
+	[94] initial solution: 2785
+	[95] initial solution: 2589
+	[96] initial solution: 2576
+	[97] initial solution: 3056
+	[98] initial solution: 2187
+	[99] initial solution: 2512
+Analysis:
+	Total iterations: 67023
+	Nb sub-solutions: 63600
+	Nb better solutions: 3423
+Solution: 2085
+Solution found: 2085
+Execution time: 0.29 ms
+

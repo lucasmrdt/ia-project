@@ -1,1 +1,1 @@
-from .tcp_main import main
+from .tcp_main import main, stats

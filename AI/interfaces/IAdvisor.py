@@ -1,4 +1,3 @@
-from typing import List
 from .IInstance import IInstance
 from .ISolution import ISolution
 
